@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title> 170320_exercise
+</title>
+<style>  
+.mytable { border-collapse:collapse; }  
+.mytable th, .mytable td { border:1px solid black; }
+</style>
+</head>
+<body>
+<table class="mytable" width="1400">
+<tr>
+<th><strong><h1>주간 히트 노래</strong></h1></th>
+<th><strong><h1>주간 히트 영상</strong></h1></th> 
+<th><strong><h1>회원 가입!</strong></h1></th>
+</tr>
+
+<tr>
+	<td>
+		<ol>
+			<li><img width="50" src="img01.png"><u>Cheer up </u></li>
+			<li><img width="50" src="img02.png"><u>우아하게 </u></li>
+			<li><img width="50" src="img03.png"><u>TT </u></li>
+			<li><img width="50" src="img04.png"><u>knock knock </u></li>
+			<li><img width="50" src="img05.png"><u>원인어밀리언 </u></li>
+		</ol>	
+		
+		<p><audio src="34ex1.mp3" controls="controls"></audio></p>
+	</td>
+	<td>
+		<video width="400" controls>
+			<source src="411.mp4" type="video/mp4">
+		</video>
+	</td>
+	<td>
+		<form>
+			이름 : <input type="text" name="wholename"><br>
+			아이디 : <input type="text" name="id"><br>
+			연락처 : <input type="tel" size="5" name="first"> - <input type="tel" size="5" name="first"> - <input type="tel" size="5" name="first"> <br>
+			성별구분 : <input type="radio" name="gender" value="male"> 남 
+				<input type="radio" name="gender" value="female"> 여 <br>
+			사용언어 : <input type="radio" name="lang" value="ko"> 한글
+			<input type="radio" name="lang" value="eng"> 영어
+			<input type="radio" name="lang" value="jp"> 일어
+			<input type="radio" name="lang" value="ch"> 중국어 <br>
+			국적 : <select name="nat" form="natform">
+				<option value="kor">KOREA</option>
+				<option value="eng">AMERICA</option>
+				<option value="jap">JAPAN</option>
+				<option value="chn">CHINA</option>
+				</select> <br>
+			<input type="submit" value="Submit">
+		</form>
+	</td>
+</tr>
+
+
+
+</body>
+</html>
